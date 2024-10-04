@@ -1,0 +1,14 @@
+# CLIツールとしてコマンドで使う方法
+## 実行権限を付与
+```bash
+% chmod u+x cogp
+```
+* `u`: `copg`所有者に権限を付与します
+* `x`: 実行権限を付与します
+
+## PATHを通す
+```bash
+% echo export PATH="$PATH:$HOME/local_dev/cogp/" >> ~/.zshrc
+% source ~/.zshrc
+```
+終わり
